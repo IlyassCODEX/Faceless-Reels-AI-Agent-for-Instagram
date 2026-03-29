@@ -20,10 +20,11 @@
 This n8n workflow turns a topic idea into a fully produced, captioned Instagram Reel — **automatically and for free**:
 
 1. **AI writes the story** — A Groq-powered AI Agent reads topics from a Google Sheet and writes a multi-scene video script
-2. **Free image generation** — Each scene gets a cinematic image via Flux Schnell (free tier)
+2. **Free image generation** — Each scene gets a cinematic image via Flux Schnell (free tier No credit Card needed)
 3. **Free TTS voiceover** — Windows Text-to-Speech generates the narration locally (no API cost)
 4. **Video assembly with Ken Burns + captions** — FFmpeg stitches scenes with smooth zoom animation and burned-in subtitles
-5. **Auto-posts to Instagram** — Uploads to Google Drive, then publishes directly to your Instagram account
+5. **Upload it to Cloudinary** to Get a Url for the video to share it into instagram (Need a API Key but its Free)
+6. **Auto-posts to Instagram** — Uploads to Google Drive, then publishes directly to your Instagram account
 
 > ✅ Zero monthly AI cost. Zero manual editing. Just plug in a Google Sheet and let it run.
 
@@ -62,7 +63,10 @@ Google Sheets (topics)
    Google Drive (upload + share link)
         │
         ▼
-   Instagram Graph API (auto-publish)
+    upload it to Cloudinary
+        │
+        ▼
+Instagram Graph API (auto-publish)
         │
         ▼
    Google Sheets (log result row)
@@ -80,6 +84,7 @@ Google Sheets (topics)
 | Text-to-speech | Windows `System.Speech` (PowerShell) | Free |
 | Video rendering | [FFmpeg](https://ffmpeg.org) | Free |
 | File storage | Google Drive | Free |
+| Video link cause instagram disable drive link | Cloudinary | Free tier |
 | Topic management | Google Sheets | Free |
 | Publishing | Instagram Graph API | Free |
 
@@ -93,8 +98,9 @@ Google Sheets (topics)
 - **[FFmpeg](https://ffmpeg.org/download.html)** installed and added to PATH
 - A **Groq API key** (free at [console.groq.com](https://console.groq.com))
 - A **Fal.ai API key** (free at [fal.ai](https://fal.ai)) for Flux Schnell images
+- Cloudinary (free at [cloudinary.com](cloudinary.com))
 - A **Google Cloud** project with Sheets & Drive APIs enabled
-- An **Instagram Business/Creator** account connected to a Facebook Page + Instagram Graph API access
+- An **Instagram Business/Creator** account connected to a Facebook Page + Instagram Graph API access (This is important)
 
 ---
 
@@ -103,7 +109,7 @@ Google Sheets (topics)
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/faceless-reels-ai-agent.git
+git clone https://github.com/IlyassCODEX/faceless-reels-ai-agent.git
 cd faceless-reels-ai-agent
 ```
 
@@ -176,7 +182,7 @@ Inside the **`Setup workflow`** node in n8n you can adjust:
 
 | Setting | Default | Description |
 |---|---|---|
-| `OUTPUT_DIR` | `C:/Users/codex/.n8n-files/media` | Where media files are saved locally |
+| `OUTPUT_DIR` | `C:/Users/home/.n8n-files/media` | Where media files are saved locally you need to change it to your .n8n-files directory |
 | Scene image size | 1080×1920 | Portrait format for Reels |
 | TTS speech rate | `-1` (slightly slow) | Adjust in `tts_server.js` |
 | Ken Burns zoom speed | `+0.0008 per frame` | Adjust in `video_server.js` |

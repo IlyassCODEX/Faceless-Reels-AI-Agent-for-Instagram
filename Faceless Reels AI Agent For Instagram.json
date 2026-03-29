@@ -440,7 +440,7 @@
             {
               "id": "538d674c-ad08-4391-b2ef-0df2f20b751f",
               "name": "AccountID",
-              "value": "c0bba6d05161b7a63b43e58ec3b6b5e7",
+              "value": "********7a63b43e58ec3b6b5e7",
               "type": "string"
             }
           ]
@@ -524,19 +524,19 @@
             {
               "id": "804cbc7e-ed9d-4535-b8d6-a03a17c11876",
               "name": "cloudname",
-              "value": "dhugwscvr",
+              "value": "*****vr",
               "type": "string"
             },
             {
               "id": "e24421d0-e17c-423e-9a3f-a3326eb33b6a",
               "name": "secret",
-              "value": "qWx5IiBtb-9YhsHvvIDcoHXjt6k",
+              "value": "qW*******vvIDcoHXjt6k",
               "type": "string"
             },
             {
               "id": "df621587-753a-49b4-acda-7d1c89b6e96d",
               "name": "apikey",
-              "value": "227487289575524",
+              "value": "2********4",
               "type": "string"
             }
           ]
@@ -604,19 +604,19 @@
             {
               "id": "804cbc7e-ed9d-4535-b8d6-a03a17c11876",
               "name": "cloudname",
-              "value": "dhugwscvr",
+              "value": "****scvr",
               "type": "string"
             },
             {
               "id": "e24421d0-e17c-423e-9a3f-a3326eb33b6a",
               "name": "secret",
-              "value": "qWx5IiBtb-9YhsHvvIDcoHXjt6k",
+              "value": "***********HXjt6k",
               "type": "string"
             },
             {
               "id": "df621587-753a-49b4-acda-7d1c89b6e96d",
               "name": "apikey",
-              "value": "227487289575524",
+              "value": "********4",
               "type": "string"
             }
           ]
@@ -661,7 +661,7 @@
           "value": "15jaHXbwtSXa59Ak69uhC6Zlbr1cs0rHO",
           "mode": "list",
           "cachedResultName": "Stories_saved",
-          "cachedResultUrl": "https://drive.google.com/drive/folders/15jaHXbwtSXa59Ak69uhC6Zlbr1cs0rHO"
+          "cachedResultUrl": "https://drive.google.com/drive/folders/15jHO"
         },
         "options": {}
       },
@@ -718,13 +718,13 @@
             {
               "id": "2bb2fb6b-1d7d-45ed-ae89-d56dda898721",
               "name": "ID",
-              "value": "17841443135436229",
+              "value": "**************229",
               "type": "string"
             },
             {
               "id": "de8f7393-94af-480b-8217-d5ffbe03ddf0",
               "name": "AccesToken",
-              "value": "EAAWFxgtA7ZA4BRH4HjSSAsooz7uzfudZCvGQlAheLWtSa0PPbSr7aYZA4j7TbV61sDlO1RQ314Vv3G1vHChsNtfHvaqN9xZCo2UlGq00mBJNdszgPZC7aW5qEBrZAGj6xkZAFpUKlktZBUdgRUXEqgyt5X419Qg8dsBKK58r4ESFD8ERY1roopPw4XZBqJEPYjUR8",
+              "value": "*****************************UKlktZBUdgRUXEqgyt5X419Qg8dsBKK58r4ESFD8ERY1roopPw4XZBqJEPYjUR8",
               "type": "string"
             }
           ]
@@ -743,10 +743,10 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=https://graph.facebook.com/v25.0/17841443135436229/media_publish",
+        "url": "=https://graph.facebook.com/v25.0/***************9/media_publish",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"creation_id\": \"18064125428437848\",\n  \"access_token\": \"EAAWFxgtA7ZA4BRH4HjSSAsooz7uzfudZCvGQlAheLWtSa0PPbSr7aYZA4j7TbV61sDlO1RQ314Vv3G1vHChsNtfHvaqN9xZCo2UlGq00mBJNdszgPZC7aW5qEBrZAGj6xkZAFpUKlktZBUdgRUXEqgyt5X419Qg8dsBKK58r4ESFD8ERY1roopPw4XZBqJEPYjUR8\"\n}",
+        "jsonBody": "={\n  \"creation_id\": \"1****************48\",\n  \"access_token\": \"******************************v3G1vHChsNtfHvaqN9xZCo2UlGq00mB************************XEqgyt5X419Qg8dsBKK58r4ESFD8ERY1roopPw4XZBqJEPYjUR8\"\n}",
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
@@ -814,14 +814,14 @@
           "value": "1Q9UepUpf48x5y1XcqNQc8QbsdOj9oz5cfdTVwqHECyk",
           "mode": "list",
           "cachedResultName": "stories",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Q9UepUpf48x5y1XcqNQc8QbsdOj9oz5cfdTVwqHECyk/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Q9UepUpf***fdTVwqHECyk/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "Feuille 1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Q9UepUpf48x5y1XcqNQc8QbsdOj9oz5cfdTVwqHECyk/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Q9UepUpf48x****dTVwqHECyk/edit#gid=0"
         },
         "columns": {
           "mappingMode": "defineBelow",

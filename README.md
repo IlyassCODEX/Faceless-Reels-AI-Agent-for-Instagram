@@ -101,9 +101,9 @@ Instagram Graph API (auto-publish)
 - Cloudinary (free at [cloudinary.com](cloudinary.com))
 - A **Google Cloud** project with Sheets & Drive APIs enabled
 - An **Instagram Business/Creator** account connected to a Facebook Page + Instagram Graph API access (This is important)
-` you can watch those video : 
+ you can watch those video : 
 [https://youtu.be/m02TeQ9kHVo?si=EA_dQbHEHxI75DfA](https://youtu.be/m02TeQ9kHVo?si=EA_dQbHEHxI75DfA) 
-[https://youtu.be/t63IlcH1GJY?si=6noaDcOR5nYTKh6l](https://youtu.be/t63IlcH1GJY?si=6noaDcOR5nYTKh6l)`
+[https://youtu.be/t63IlcH1GJY?si=6noaDcOR5nYTKh6l](https://youtu.be/t63IlcH1GJY?si=6noaDcOR5nYTKh6l)
 
 ---
 

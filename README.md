@@ -31,8 +31,9 @@ This n8n workflow turns a topic idea into a fully produced, captioned Instagram 
 
 ## 📺 Demo
 
-> 📸 **Add a GIF or short screen recording here showing a generated Reel.**  
-> Tools like [LiceCap](https://www.cockos.com/licecap/) (free) can record your screen as a GIF.
+> 📸 ** short screen recording a generated Reel.**
+![n8n1](https://github.com/user-attachments/assets/592d9036-e4ad-4962-8c53-cfa0df574148)
+https://github.com/user-attachments/assets/52ac3365-f8e0-44a7-970b-3f2b2dc1e3fb
 
 ---
 
